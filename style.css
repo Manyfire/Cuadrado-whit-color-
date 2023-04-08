@@ -1,0 +1,72 @@
+html {
+  box-sizing: border-box;
+  font-size: 64.2%;
+}
+
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+
+body {
+  line-height: 1.6rem;
+  margin: 0;
+  padding: 0;
+  background: rgb(166, 133, 73);
+}
+header{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7px;
+  margin-bottom: 3px;
+  text-decoration: underline;
+}
+
+#box {
+  border: 2px solid rgb(157, 60, 242);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 250px;
+  padding: 10px;
+  margin: 0 auto;
+  background: gainsboro;
+  border-radius: 10px;
+}
+
+.carre {
+border: 2px solid blue;
+width: 30px;
+height: 30px;
+margin: 4px;
+font-size: 1.5rem;
+color: blue;
+text-align: center;
+padding: 3px;
+user-select: none;
+-moz-user-select: none;
+}
+
+.carre2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(27, 27, 30);
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-size: 1.5rem;
+  background: lightblue;
+  color: blue;
+  padding: 3px;
+  user-select: none;
+  -moz-user-select: none;
+  }
+
+#prixGagnante {
+  color: red;
+  margin-bottom: 3px;
+}
